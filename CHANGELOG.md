@@ -2,7 +2,7 @@
 
 All notable changes to the free Unhurried theme.
 
-## 1.0.0 (unreleased, preparing WordPress.org submission)
+## 1.0.0 (submitted to WordPress.org 2026-09-25, review ticket https://themes.trac.wordpress.org/ticket/292908)
 
 ### 2026-09-24
 - Built as a WordPress block theme from Switch Case Studio's light editorial design.

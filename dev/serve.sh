@@ -6,4 +6,4 @@ BP=dev/blueprint.json; [ "$1" = pro ] && BP=dev/blueprint-pro.json
 exec npx -y @wp-playground/cli@latest server --port=9400 \
   --mount-before-install="$PWD:/wordpress/wp-content/themes/unhurried" \
   --mount-before-install="$HOME/Desktop/unhurried-pro:/wordpress/wp-content/themes/unhurried-pro" \
-  --blueprint=$BP
+  --blueprint=$BP ${LOGIN:+--login}
