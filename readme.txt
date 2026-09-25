@@ -21,6 +21,8 @@ The theme includes:
 * Heroes (staggered type, split with an arched image, type only), a rising "your visit" panel, services on an image with a frosted accordion, a staggered gallery, a values statement, a stories grid, a testimonial, a call to action, a price list, membership tiers, questions and answers, contact details and a team feature.
 * Section styles for any Group: Panel, Card, Ink, Ground and Glass.
 * Block styles: Eyebrow and Statement paragraphs, Hairline and Text link buttons, and Arch and Keep colour images.
+* A full blog: a staggered stories grid, category and tag archives, split-hero single posts with comments, and a "Stories, lead and list" pattern that turns the newest post into a large feature.
+* Ready for WooCommerce: styled shop, category, tag and search pages, a single product page with a sticky summary panel, cart, and a distraction-free checkout with a minimal header. A "Shop shelf" pattern for any page appears once WooCommerce is active. WooCommerce is optional; the theme works fully without it.
 * Two extra style variations: Nocturne (dark) and Linen (warm, with a sage accent).
 * Two page templates without a title: Canvas and Ground artboard. Use Ground artboard with the Homepage pattern.
 * A small, optional reveal-on-scroll effect. Add the class `unhurried-reveal` to any block. It is switched off for visitors who prefer reduced motion, and content stays visible without JavaScript.
@@ -34,6 +36,10 @@ The theme includes:
 4. Set that page as your homepage under Settings > Reading.
 
 == Frequently Asked Questions ==
+
+= Does Unhurried need WooCommerce? =
+
+No. Every page works without it. If you install WooCommerce, the shop, product, cart and checkout pages pick up the theme's style automatically.
 
 = Does the theme include a contact or booking form? =
 
