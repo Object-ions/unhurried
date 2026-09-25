@@ -3,7 +3,7 @@
  * About Unhurried: a getting-started and credits screen under Appearance.
  *
  * @package Unhurried
- * @author  Moshe Atia Poston, Switch Case Studio
+ * @author  Moses Atia Poston, Switch Case Studio
  * @since 1.0.0
  */
 
@@ -94,7 +94,7 @@ if ( ! function_exists( 'unhurried_about_screen' ) ) :
 					printf(
 						/* translators: 1: Designer name, 2: Studio link. */
 						esc_html__( 'Unhurried was designed and built by %1$s of %2$s.', 'unhurried' ),
-						'Moshe Atia Poston',
+						'Moses Atia Poston',
 						'<a href="' . esc_url( 'https://switchcasestudio.com' ) . '">Switch Case Studio</a>'
 					);
 					?>
@@ -109,7 +109,7 @@ if ( ! function_exists( 'unhurried_about_screen' ) ) :
 					?>
 				</p>
 				<p class="ua-small" style="color:rgba(246,244,239,.65)">
-					<?php esc_html_e( '© 2026 Moshe Atia Poston, Switch Case Studio. Licensed under the GNU GPL v2 or later.', 'unhurried' ); ?>
+					<?php esc_html_e( '© 2026 Moses Atia Poston, Switch Case Studio. Licensed under the GNU GPL v2 or later.', 'unhurried' ); ?>
 				</p>
 			</div>
 

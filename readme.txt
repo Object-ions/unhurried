@@ -3,7 +3,7 @@ Contributors: switchcasestudio
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,12 +48,15 @@ Select the image and choose the Keep colour style, or remove the `unhurried-mono
 
 == Changelog ==
 
+= 1.0.1 =
+* Credits use the author's canonical name, Moses Atia Poston.
+
 = 1.0.0 =
 * Initial release.
 
 == Copyright ==
 
-Unhurried WordPress Theme, (C) 2026 Moshe Atia Poston, Switch Case Studio.
+Unhurried WordPress Theme, (C) 2026 Moses Atia Poston, Switch Case Studio.
 Unhurried is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

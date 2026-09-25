@@ -2,6 +2,9 @@
 
 All notable changes to the free Unhurried theme.
 
+## 1.0.1 (2026-09-25)
+- Credits and copyright now use the canonical name **Moses Atia Poston** (the byline used on switchcasestudio.com and GitHub).
+
 ## 1.0.0 (submitted to WordPress.org 2026-09-25, review ticket https://themes.trac.wordpress.org/ticket/292908)
 
 ### 2026-09-24
@@ -10,7 +13,7 @@ All notable changes to the free Unhurried theme.
 - Section styles (Panel, Card, Ink, Ground, Glass), block styles (Eyebrow, Statement, Hairline, Text link, Arch, Keep colour) and two style variations (Nocturne, Linen).
 - Neutral "rest and ritual" demo copy; seven original CC0 still-life images; OFL fonts (Hanken Grotesk, Inter, Fraunces).
 - Author credit: "Designed by Switch Case Studio" in the footer.
-- Appearance > About Unhurried: getting-started steps, tips, and a Credits panel naming Moshe Atia Poston of Switch Case Studio, with copyright and licence.
+- Appearance > About Unhurried: getting-started steps, tips, and a Credits panel naming Moses Atia Poston of Switch Case Studio, with copyright and licence.
 - Author and copyright headers in functions.php and every pattern file.
 - Fixed: the stylesheet now loads from the parent theme, so child themes (Unhurried Pro) keep the header, panel and reveal styles.
 - Fixed: the header button no longer wraps on phones; the site title truncates instead.

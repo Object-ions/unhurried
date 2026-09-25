@@ -44,4 +44,4 @@ WordPress Playground demo: `dev/serve.sh free` (or `pro`, which expects `../unhu
 
 ## Licence and credits
 
-© 2026 Moshe Atia Poston, Switch Case Studio. GPL-2.0-or-later (see `LICENSE`). Fonts: Hanken Grotesk, Inter, Fraunces (SIL OFL 1.1). Images: original, CC0. Setup help: [switchcasestudio.com](https://switchcasestudio.com).
+© 2026 Moses Atia Poston, Switch Case Studio. GPL-2.0-or-later (see `LICENSE`). Fonts: Hanken Grotesk, Inter, Fraunces (SIL OFL 1.1). Images: original, CC0. Setup help: [switchcasestudio.com](https://switchcasestudio.com).
