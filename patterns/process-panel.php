@@ -12,10 +12,10 @@
  */
 
 $unhurried_steps = array(
-	array( __( 'Consultation', 'unhurried' ), __( 'We listen first and look closely, then agree on what is worth doing.', 'unhurried' ) ),
-	array( __( 'A written plan', 'unhurried' ), __( 'Every step, every visit and every price, set out before anything begins.', 'unhurried' ) ),
-	array( __( 'Measured care', 'unhurried' ), __( 'Treatment at the pace your skin needs, never more than it needs.', 'unhurried' ) ),
-	array( __( 'Aftercare', 'unhurried' ), __( 'A follow-up call, clear home care and time to see the result settle.', 'unhurried' ) ),
+	array( __( 'Arrive', 'unhurried' ), __( 'Leave the day at the door. We will take it from here.', 'unhurried' ) ),
+	array( __( 'Settle in', 'unhurried' ), __( 'Tea, a warm room and ten quiet minutes before anything starts.', 'unhurried' ) ),
+	array( __( 'The ritual', 'unhurried' ), __( 'An hour or two that belongs entirely to you.', 'unhurried' ) ),
+	array( __( 'Take it home', 'unhurried' ), __( 'Something small to take home, and a reason to come back.', 'unhurried' ) ),
 );
 ?>
 <!-- wp:group {"metadata":{"name":"<?php echo esc_attr_x( 'Process', 'Pattern block name', 'unhurried' ); ?>"},"align":"full","className":"is-style-section-ground","style":{"spacing":{"padding":{"top":"0","bottom":"var:preset|spacing|80","left":"clamp(12px, 2vw, 44px)","right":"clamp(12px, 2vw, 44px)"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
@@ -25,10 +25,10 @@ $unhurried_steps = array(
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
-			<p class="is-style-eyebrow"><?php esc_html_e( 'The process', 'unhurried' ); ?></p>
+			<p class="is-style-eyebrow"><?php esc_html_e( 'Your visit', 'unhurried' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'Beauty, restored<br><em>not</em> acquired', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
+			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'How a visit<br><em>unfolds</em>', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->
@@ -54,12 +54,12 @@ $unhurried_steps = array(
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"className":"is-style-statement","style":{"layout":{"selfStretch":"fixed","flexSize":"min(100%, 22ch)"}}} -->
-			<p class="is-style-statement"><?php echo wp_kses( __( 'One measured arc of care, <em>every price</em> visible before you commit.', 'unhurried' ), array( 'em' => array() ) ); ?></p>
+			<p class="is-style-statement"><?php echo wp_kses( __( 'No clocks on the walls, <em>no rush</em> at the door.', 'unhurried' ), array( 'em' => array() ) ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Start with a consultation', 'unhurried' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Plan a visit', 'unhurried' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

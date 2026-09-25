@@ -3,7 +3,7 @@
  * Title: Call to action, image and card
  * Slug: unhurried/cta-split
  * Categories: call-to-action, featured
- * Keywords: cta, contact, book, consultation
+ * Keywords: cta, contact, book, visit
  * Viewport width: 1400
  * Description: A monochrome image joined to a Bone card with a headline, a short note and a button.
  *
@@ -26,15 +26,15 @@
 		<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70","left":"var:preset|spacing|70","right":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|50"},"border":{"radius":{"topRight":"24px","bottomRight":"24px"}}},"backgroundColor":"base"} -->
 		<div class="wp-block-column is-vertically-aligned-center has-base-background-color has-background" style="border-top-right-radius:24px;border-bottom-right-radius:24px;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)">
 			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'We love<br>your <em>skin</em>', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
+			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'Make some<br><em>time</em> for it', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"textColor":"contrast-2"} -->
-			<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Send us a note and we will reply within one business day. The first conversation is always free.', 'unhurried' ); ?></p>
+			<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Pick a morning, an afternoon or a whole Saturday. We will keep it quiet for you.', 'unhurried' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Request a consultation', 'unhurried' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Book a visit', 'unhurried' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

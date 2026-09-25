@@ -12,15 +12,15 @@
  */
 
 $unhurried_tiers = array(
-	array( __( 'Essential', 'unhurried' ), '$120', __( 'One visit a month, a written plan and home-care notes.', 'unhurried' ), false ),
-	array( __( 'Seasonal', 'unhurried' ), '$220', __( 'Two visits a month for a season, with a mid-point review.', 'unhurried' ), true ),
-	array( __( 'Year of care', 'unhurried' ), '$390', __( 'A year planned together, with priority booking and quarterly reviews.', 'unhurried' ), false ),
+	array( __( 'Monthly', 'unhurried' ), '$120', __( 'One visit a month and a member price on everything else.', 'unhurried' ), false ),
+	array( __( 'Fortnightly', 'unhurried' ), '$220', __( 'Two visits a month and a guest pass each season.', 'unhurried' ), true ),
+	array( __( 'Regular', 'unhurried' ), '$390', __( 'Unlimited visits, first pick of new rituals and a guest pass each season.', 'unhurried' ), false ),
 );
 ?>
 <!-- wp:group {"metadata":{"name":"<?php echo esc_attr_x( 'Pricing', 'Pattern block name', 'unhurried' ); ?>"},"align":"full","className":"is-style-section-ground","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
 <div class="wp-block-group alignfull is-style-section-ground" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php echo wp_kses( __( 'A year of <em>care</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
+	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php echo wp_kses( __( 'Come <em>often</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 	<div class="wp-block-columns">

@@ -12,10 +12,10 @@
  */
 
 $unhurried_rows = array(
-	array( 'orb', __( 'Signature facial', 'unhurried' ), __( 'Cleansing, gentle exfoliation and massage, fitted on the day.', 'unhurried' ), __( '90 min', 'unhurried' ), __( 'From $180', 'unhurried' ) ),
-	array( 'vessel', __( 'Brightening peel', 'unhurried' ), __( 'A light, measured peel for tone and texture.', 'unhurried' ), __( '45 min', 'unhurried' ), __( 'From $140', 'unhurried' ) ),
-	array( 'pedestal', __( 'Skin consultation', 'unhurried' ), __( 'A close look and a written plan to take home.', 'unhurried' ), __( '30 min', 'unhurried' ), __( 'Free', 'unhurried' ) ),
-	array( 'arch', __( 'Seasonal programme', 'unhurried' ), __( 'Four visits across three months, paced for lasting change.', 'unhurried' ), __( '4 visits', 'unhurried' ), __( 'From $620', 'unhurried' ) ),
+	array( 'orb', __( 'Signature massage', 'unhurried' ), __( 'Warm oil, slow hands, ninety minutes.', 'unhurried' ), __( '90 min', 'unhurried' ), __( 'From $180', 'unhurried' ) ),
+	array( 'vessel', __( 'Hot stone ritual', 'unhurried' ), __( 'Warm stones and slow pressure.', 'unhurried' ), __( '45 min', 'unhurried' ), __( 'From $140', 'unhurried' ) ),
+	array( 'pedestal', __( 'First visit', 'unhurried' ), __( 'An easy first visit to get to know you.', 'unhurried' ), __( '30 min', 'unhurried' ), __( 'Free', 'unhurried' ) ),
+	array( 'arch', __( 'Ritual for two', 'unhurried' ), __( 'For two, side by side.', 'unhurried' ), __( '4 visits', 'unhurried' ), __( 'From $620', 'unhurried' ) ),
 );
 ?>
 <!-- wp:group {"metadata":{"name":"<?php echo esc_attr_x( 'Services index', 'Pattern block name', 'unhurried' ); ?>"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
@@ -26,7 +26,7 @@ $unhurried_rows = array(
 		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'The <em>menu</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"textColor":"contrast-2","style":{"layout":{"selfStretch":"fixed","flexSize":"min(100%, 36ch)"}}} -->
-		<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Every price is listed. Every plan starts with a free consultation.', 'unhurried' ); ?></p>
+		<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Prices include tea, time to linger and no rush at the door.', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

@@ -1,14 +1,13 @@
 /*
 Theme Name: Unhurried
-Theme URI: https://github.com/Object-ions/unhurried
-Author: Object-ions
-Author URI: https://github.com/Object-ions
-Description: Unhurried is a calm, editorial block theme for studios, clinics, spas and makers who sell care rather than speed. Warm bone and ink surfaces, floating panels that rise over the page, oversized display type with Fraunces italic accent words, and a gallery-monochrome image treatment give every page the feel of a printed lookbook. It ships with full-page patterns for a homepage, about, services and contact page, plus heroes, process steps, service accordions, pricing tiers, FAQs and a journal layout, all editable in the Site Editor.
+Author: Switch Case Studio
+Author URI: https://switchcasestudio.com
+Description: Unhurried is a calm, editorial block theme for studios, clinics, spas and makers who sell care rather than speed. Warm bone and ink surfaces, floating panels that rise over the page, oversized display type with Fraunces italic accent words, and a gallery-monochrome image treatment give every page the feel of a printed lookbook. It ships with full-page patterns for a homepage, about, services and contact page, plus heroes, visit steps, service accordions, membership tiers, FAQs and a stories layout, all editable in the Site Editor.
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
 Version: 1.0.0
-Copyright: (c) 2026 Object-ions
+Copyright: (c) 2026 Moshe Atia Poston, Switch Case Studio
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: unhurried
@@ -111,7 +110,7 @@ img { height: auto; }
 }
 
 /* Small floating note card */
-.unhurried-note { max-width: min(100%, 26rem); }
+.unhurried-note { max-width: min(100%, 26rem); margin-left: 0 !important; }
 
 /* Staggered gallery row */
 .unhurried-stagger > .wp-block-image:nth-child(even),

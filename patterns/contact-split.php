@@ -56,7 +56,7 @@
 			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo wp_kses( __( 'Send a <em>note</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"textColor":"contrast-2"} -->
-			<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Tell us a little about what you are hoping for. We reply within one business day, and never share your details.', 'unhurried' ); ?></p>
+			<p class="has-contrast-2-color has-text-color"><?php esc_html_e( 'Questions, gift cards or a group booking. We answer every note ourselves.', 'unhurried' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">

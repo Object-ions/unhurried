@@ -1,5 +1,5 @@
 === Unhurried ===
-Contributors: objections
+Contributors: switchcasestudio
 Requires at least: 6.6
 Tested up to: 6.8
 Requires PHP: 7.4
@@ -18,7 +18,7 @@ Write an italic word inside any heading and it turns into the Fraunces accent fa
 The theme includes:
 
 * Full-page patterns for a homepage, about, services and contact page.
-* Heroes (measured type, split with an arched image, type only), a rising process panel, services on an image with a frosted accordion, a staggered gallery, a philosophy statement, a journal grid, a testimonial, a call to action, a services price list, pricing tiers, questions and answers, contact details and a practitioner feature.
+* Heroes (staggered type, split with an arched image, type only), a rising "your visit" panel, services on an image with a frosted accordion, a staggered gallery, a values statement, a stories grid, a testimonial, a call to action, a price list, membership tiers, questions and answers, contact details and a team feature.
 * Section styles for any Group: Panel, Card, Ink, Ground and Glass.
 * Block styles: Eyebrow and Statement paragraphs, Hairline and Text link buttons, and Arch and Keep colour images.
 * Two extra style variations: Nocturne (dark) and Linen (warm, with a sage accent).
@@ -50,7 +50,7 @@ Select the image and choose the Keep colour style, or remove the `unhurried-mono
 
 == Copyright ==
 
-Unhurried WordPress Theme, (C) 2026 Object-ions.
+Unhurried WordPress Theme, (C) 2026 Moshe Atia Poston, Switch Case Studio.
 Unhurried is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

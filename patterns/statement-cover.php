@@ -3,7 +3,7 @@
  * Title: Statement on image, with note card
  * Slug: unhurried/statement-cover
  * Categories: featured, about
- * Keywords: philosophy, statement, about, cover, quote
+ * Keywords: values, statement, about, cover, quote
  * Viewport width: 1400
  * Description: A dark full-bleed image with a right-aligned two-line statement and a frosted note card in the lower left.
  *
@@ -17,20 +17,20 @@
 	<!-- wp:group {"className":"unhurried-reveal","style":{"spacing":{"blockGap":"var:preset|spacing|50","margin":{"bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"760px","justifyContent":"right"}} -->
 	<div class="wp-block-group unhurried-reveal" style="margin-bottom:var(--wp--preset--spacing--80)">
 		<!-- wp:paragraph {"align":"right","className":"is-style-eyebrow","textColor":"base"} -->
-		<p class="has-text-align-right is-style-eyebrow has-base-color has-text-color"><?php esc_html_e( 'Our philosophy', 'unhurried' ); ?></p>
+		<p class="has-text-align-right is-style-eyebrow has-base-color has-text-color"><?php esc_html_e( 'What we believe', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"textAlign":"right","textColor":"base","fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-text-align-right has-base-color has-text-color has-xx-large-font-size"><?php echo wp_kses( __( '<em>The art of</em><br>restoration', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-right has-base-color has-text-color has-xx-large-font-size"><?php echo wp_kses( __( '<em>Slow</em> is<br>a practice', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"right","textColor":"base","fontSize":"medium"} -->
-		<p class="has-text-align-right has-base-color has-text-color has-medium-font-size"><?php esc_html_e( 'Beautiful results come from a thoughtful mix of art and science, and from restraint before intervention.', 'unhurried' ); ?></p>
+		<p class="has-text-align-right has-base-color has-text-color has-medium-font-size"><?php esc_html_e( 'We leave space around every booking, so nobody watches the clock, including us.', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:group {"className":"is-style-glass unhurried-note unhurried-reveal","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group is-style-glass unhurried-note unhurried-reveal">
 		<!-- wp:paragraph {"fontSize":"small","textColor":"base"} -->
-		<p class="has-base-color has-text-color has-small-font-size"><?php esc_html_e( 'Every plan is tested against one question: does this serve the person in front of us, in their own proportion?', 'unhurried' ); ?></p>
+		<p class="has-base-color has-text-color has-small-font-size"><?php esc_html_e( 'Arrive ten minutes early. The kettle is always on.', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

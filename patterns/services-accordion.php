@@ -12,10 +12,10 @@
  */
 
 $unhurried_services = array(
-	array( __( 'Signature facial', 'unhurried' ), __( 'Ninety minutes of cleansing, gentle exfoliation and massage, fitted to your skin on the day.', 'unhurried' ) ),
-	array( __( 'Skin consultation', 'unhurried' ), __( 'A close look at your skin, your routine and your goals, with a written plan to take home.', 'unhurried' ) ),
-	array( __( 'Brightening peel', 'unhurried' ), __( 'A light, measured peel for tone and texture, with little to no downtime.', 'unhurried' ) ),
-	array( __( 'Seasonal programme', 'unhurried' ), __( 'Four visits across three months, planned together and paced for lasting change.', 'unhurried' ) ),
+	array( __( 'Signature massage', 'unhurried' ), __( 'Ninety minutes, warm oil and a pace set entirely by you.', 'unhurried' ) ),
+	array( __( 'First visit', 'unhurried' ), __( 'An easy first visit to talk through what you would like from us.', 'unhurried' ) ),
+	array( __( 'Hot stone ritual', 'unhurried' ), __( 'Warm stones and slow pressure to loosen a long week.', 'unhurried' ) ),
+	array( __( 'Ritual for two', 'unhurried' ), __( 'A shared room and two therapists, for you and someone you like.', 'unhurried' ) ),
 );
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/drape.webp' ) ); ?>","dimRatio":50,"overlayColor":"contrast","minHeight":860,"minHeightUnit":"px","isDark":true,"metadata":{"name":"<?php echo esc_attr_x( 'Services', 'Pattern block name', 'unhurried' ); ?>"},"align":"full","className":"unhurried-mono","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
@@ -25,10 +25,10 @@ $unhurried_services = array(
 		<!-- wp:column {"verticalAlignment":"center","width":"45%","style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%">
 			<!-- wp:paragraph {"className":"is-style-eyebrow","textColor":"base"} -->
-			<p class="is-style-eyebrow has-base-color has-text-color"><?php esc_html_e( 'Our services', 'unhurried' ); ?></p>
+			<p class="is-style-eyebrow has-base-color has-text-color"><?php esc_html_e( 'Rituals', 'unhurried' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:heading {"textColor":"base","fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-base-color has-text-color has-xx-large-font-size"><?php echo wp_kses( __( 'A boutique experience,<br>made-to-measure <em>results</em>', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
+			<h2 class="wp-block-heading has-base-color has-text-color has-xx-large-font-size"><?php echo wp_kses( __( 'Rituals for<br>the <em>whole</em> week', 'unhurried' ), array( 'em' => array(), 'br' => array() ) ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->

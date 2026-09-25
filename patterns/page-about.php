@@ -7,7 +7,7 @@
  * Block Types: core/post-content
  * Post Types: page, wp_template
  * Viewport width: 1400
- * Description: Split hero with arched image, practitioner feature, philosophy statement, testimonial and a call to action.
+ * Description: Split hero with arched image, team feature, values statement, testimonial and a call to action.
  *
  * @package Unhurried
  * @since 1.0.0

@@ -22,9 +22,9 @@
 		<!-- wp:quote -->
 		<blockquote class="wp-block-quote">
 			<!-- wp:paragraph -->
-			<p><?php esc_html_e( 'Nobody hurried me, nobody sold me anything. I left with a plan I understood and skin that looks like mine, only rested.', 'unhurried' ); ?></p>
+			<p><?php esc_html_e( 'I walked out lighter than I walked in, and I have come back every month since.', 'unhurried' ); ?></p>
 			<!-- /wp:paragraph -->
-			<cite><?php esc_html_e( 'A client, after her first season', 'unhurried' ); ?></cite>
+			<cite><?php esc_html_e( 'A regular, since the first spring', 'unhurried' ); ?></cite>
 		</blockquote>
 		<!-- /wp:quote -->
 	</div>

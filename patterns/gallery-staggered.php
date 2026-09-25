@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Staggered gallery
- * Slug: unhurried/gallery-refined
+ * Slug: unhurried/gallery-staggered
  * Categories: featured, gallery
  * Keywords: gallery, images, materials, products
  * Viewport width: 1400
@@ -18,10 +18,10 @@ $unhurried_images = array( 'vessel', 'orb', 'pedestal', 'arch' );
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
 		<!-- wp:paragraph {"align":"center","className":"is-style-eyebrow"} -->
-		<p class="has-text-align-center is-style-eyebrow"><?php esc_html_e( 'What we work with', 'unhurried' ); ?></p>
+		<p class="has-text-align-center is-style-eyebrow"><?php esc_html_e( 'Around the studio', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo wp_kses( __( 'Simply <em>refined</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo wp_kses( __( 'Small <em>things</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->

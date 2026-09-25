@@ -18,13 +18,13 @@
 	<!-- wp:group {"className":"unhurried-reveal","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"640px"}} -->
 	<div class="wp-block-group unhurried-reveal">
 		<!-- wp:paragraph {"align":"center","className":"is-style-eyebrow"} -->
-		<p class="has-text-align-center is-style-eyebrow"><?php esc_html_e( 'The Journal', 'unhurried' ); ?></p>
+		<p class="has-text-align-center is-style-eyebrow"><?php esc_html_e( 'Stories', 'unhurried' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php echo wp_kses( __( 'Notes on <em>skin</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
+		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php echo wp_kses( __( 'From the <em>studio</em>', 'unhurried' ), array( 'em' => array() ) ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"center","textColor":"contrast-2"} -->
-		<p class="has-text-align-center has-contrast-2-color has-text-color"><?php echo wp_kses( __( 'Short, honest notes from the studio: what treatments <em>actually</em> do, and how to care for your skin between visits.', 'unhurried' ), array( 'em' => array() ) ); ?></p>
+		<p class="has-text-align-center has-contrast-2-color has-text-color"><?php echo wp_kses( __( 'Recipes, reading lists and <em>small</em> rituals to try at home.', 'unhurried' ), array( 'em' => array() ) ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

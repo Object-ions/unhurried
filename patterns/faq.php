@@ -12,10 +12,10 @@
  */
 
 $unhurried_faqs = array(
-	array( __( 'What happens at a first visit?', 'unhurried' ), __( 'We talk, we look closely at your skin and we agree on a plan. Nothing is booked or charged until you are sure.', 'unhurried' ) ),
-	array( __( 'How far ahead should I book?', 'unhurried' ), __( 'Most weeks we have openings within ten days. Programmes are planned together at your consultation.', 'unhurried' ) ),
+	array( __( 'What happens at a first visit?', 'unhurried' ), __( 'A short chat, a warm drink and a tour of the room. Then the time is yours.', 'unhurried' ) ),
+	array( __( 'How far ahead should I book?', 'unhurried' ), __( 'A week or two is usually plenty. Weekend mornings go first.', 'unhurried' ) ),
 	array( __( 'Can I change or cancel?', 'unhurried' ), __( 'Yes. Give us 48 hours and there is no fee.', 'unhurried' ) ),
-	array( __( 'Do you sell products?', 'unhurried' ), __( 'A short, carefully chosen range. We only recommend what your plan actually needs.', 'unhurried' ) ),
+	array( __( 'Do you sell products?', 'unhurried' ), __( 'A small shelf of things we use ourselves, and nothing we would not.', 'unhurried' ) ),
 );
 ?>
 <!-- wp:group {"metadata":{"name":"<?php echo esc_attr_x( 'FAQ', 'Pattern block name', 'unhurried' ); ?>"},"align":"full","backgroundColor":"base-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
