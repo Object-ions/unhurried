@@ -1,0 +1,5 @@
+{ "$schema": "https://schemas.wp.org/wp/6.6/theme.json", "version": 3, "title": "Panel", "slug": "panel", "blockTypes": [ "core/group", "core/column" ],
+  "styles": { "color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--contrast)" },
+    "border": { "radius": "var(--wp--custom--radius--panel)" },
+    "shadow": "var(--wp--preset--shadow--float)",
+    "spacing": { "padding": { "top": "clamp(2.5rem, 5vw, 6rem)", "bottom": "clamp(2.5rem, 5vw, 6rem)", "left": "clamp(1.25rem, 5vw, 8rem)", "right": "clamp(1.25rem, 5vw, 8rem)" } } } }

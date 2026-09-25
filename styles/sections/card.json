@@ -1,0 +1,4 @@
+{ "$schema": "https://schemas.wp.org/wp/6.6/theme.json", "version": 3, "title": "Card", "slug": "card", "blockTypes": [ "core/group", "core/column" ],
+  "styles": { "color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--contrast)" },
+    "border": { "radius": "var(--wp--custom--radius--card)" },
+    "spacing": { "padding": { "top": "clamp(1.5rem, 3vw, 3rem)", "bottom": "clamp(1.5rem, 3vw, 3rem)", "left": "clamp(1.5rem, 3vw, 3rem)", "right": "clamp(1.5rem, 3vw, 3rem)" } } } }
