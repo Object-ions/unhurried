@@ -97,33 +97,3 @@ if ( ! function_exists( 'unhurried_pattern_categories' ) ) :
 	}
 endif;
 add_action( 'init', 'unhurried_pattern_categories' );
-
-if ( ! function_exists( 'unhurried_woocommerce_patterns' ) ) :
-	/**
-	 * Registers shop patterns, only when WooCommerce is active.
-	 *
-	 * @since 1.1.0
-	 * @return void
-	 */
-	function unhurried_woocommerce_patterns() {
-		if ( ! class_exists( 'WooCommerce' ) ) {
-			return;
-		}
-
-		ob_start();
-		include get_theme_file_path( 'inc/woocommerce-patterns/product-shelf.php' );
-		$content = ob_get_clean();
-
-		register_block_pattern(
-			'unhurried/product-shelf',
-			array(
-				'title'       => __( 'Shop shelf', 'unhurried' ),
-				'description' => __( 'Four newest products under a heading, with a link to the shop.', 'unhurried' ),
-				'categories'  => array( 'featured', 'woo-commerce' ),
-				'keywords'    => array( 'shop', 'products', 'store', 'woocommerce' ),
-				'content'     => $content,
-			)
-		);
-	}
-endif;
-add_action( 'init', 'unhurried_woocommerce_patterns', 20 );

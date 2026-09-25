@@ -593,11 +593,6 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
-		},
-		{
-			"name": "header-minimal",
-			"title": "Header (minimal, for checkout)",
-			"area": "header"
 		}
 	],
 	"customTemplates": [
