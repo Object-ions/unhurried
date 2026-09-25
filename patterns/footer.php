@@ -56,9 +56,9 @@
 		<p>
 		<?php
 		printf(
-			/* translators: %s: WordPress link. */
-			esc_html__( 'Designed with %s', 'unhurried' ),
-			'<a href="' . esc_url( __( 'https://wordpress.org', 'unhurried' ) ) . '" rel="nofollow">WordPress</a>'
+			/* translators: %s: Theme author link. */
+			esc_html__( 'Designed by %s', 'unhurried' ),
+			'<a href="' . esc_url( 'https://switchcasestudio.com' ) . '">Switch Case Studio</a>'
 		);
 		?>
 		</p>
