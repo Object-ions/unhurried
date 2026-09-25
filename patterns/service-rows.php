@@ -8,6 +8,7 @@
  * Description: An editorial index of services: thumbnail, name, short note, duration and price in hairline rows.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

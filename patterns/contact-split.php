@@ -8,6 +8,7 @@
  * Description: Address, hours and email on Stone beside a Bone card inviting a note. Add a form plugin's block inside the card if you use one.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

@@ -8,6 +8,7 @@
  * Description: An oversized, staggered headline with an italic accent line, a short lede and two buttons, on the Ground artboard.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

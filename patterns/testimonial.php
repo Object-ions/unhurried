@@ -8,6 +8,7 @@
  * Description: A single large italic quote in a floating panel.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

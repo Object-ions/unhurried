@@ -10,6 +10,7 @@
  * Description: Split hero with arched image, team feature, values statement, testimonial and a call to action.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

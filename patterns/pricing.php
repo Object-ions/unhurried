@@ -8,6 +8,7 @@
  * Description: Three equal-height tiers; the featured tier is set apart by an Ink surface, not by size.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

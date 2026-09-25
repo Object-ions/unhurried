@@ -27,6 +27,8 @@ The theme includes:
 * A small, optional reveal-on-scroll effect. Add the class `unhurried-reveal` to any block. It is switched off for visitors who prefer reduced motion, and content stays visible without JavaScript.
 * Add the class `unhurried-mono` to any block to show its images in greyscale.
 
+* An About Unhurried screen under Appearance, with getting-started steps and credits.
+
 == Installation ==
 
 1. In your admin panel, go to Appearance > Themes and click Add New.

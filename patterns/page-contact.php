@@ -10,6 +10,7 @@
  * Description: Type hero, contact details and note card, and questions.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

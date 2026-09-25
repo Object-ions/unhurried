@@ -8,6 +8,7 @@
  * Description: A full-bleed monochrome image with a headline and a frosted-glass accordion of services.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

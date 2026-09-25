@@ -8,6 +8,7 @@
  * Description: A monochrome image joined to a Bone card with a headline, a short note and a button.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

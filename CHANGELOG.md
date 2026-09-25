@@ -10,6 +10,8 @@ All notable changes to the free Unhurried theme.
 - Section styles (Panel, Card, Ink, Ground, Glass), block styles (Eyebrow, Statement, Hairline, Text link, Arch, Keep colour) and two style variations (Nocturne, Linen).
 - Neutral "rest and ritual" demo copy; seven original CC0 still-life images; OFL fonts (Hanken Grotesk, Inter, Fraunces).
 - Author credit: "Designed by Switch Case Studio" in the footer.
+- Appearance > About Unhurried: getting-started steps, tips, and a Credits panel naming Moshe Atia Poston of Switch Case Studio, with copyright and licence.
+- Author and copyright headers in functions.php and every pattern file.
 - Fixed: the stylesheet now loads from the parent theme, so child themes (Unhurried Pro) keep the header, panel and reveal styles.
 - Fixed: the header button no longer wraps on phones; the site title truncates instead.
 - Moved WooCommerce templates and the lead-story pattern to Unhurried Pro.

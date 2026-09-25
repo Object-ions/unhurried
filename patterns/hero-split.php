@@ -8,6 +8,7 @@
  * Description: A headline and lede on the left, a tall arch-topped image on the right.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

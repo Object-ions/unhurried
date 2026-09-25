@@ -8,6 +8,7 @@
  * Description: A centred heading over four staggered monochrome images.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

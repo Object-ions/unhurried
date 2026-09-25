@@ -8,6 +8,7 @@
  * Description: One large image beside a short introduction to the people who run the place.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

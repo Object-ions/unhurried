@@ -3,8 +3,13 @@
  * Unhurried functions and definitions.
  *
  * @package Unhurried
+ * @author  Moshe Atia Poston, Switch Case Studio
+ * @copyright 2026 Moshe Atia Poston, Switch Case Studio
+ * @license GPL-2.0-or-later
  * @since 1.0.0
  */
+
+require_once get_template_directory() . '/inc/about-page.php';
 
 if ( ! function_exists( 'unhurried_setup' ) ) :
 	/**

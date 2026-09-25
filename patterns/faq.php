@@ -8,6 +8,7 @@
  * Description: A heading column beside an accordion of questions and answers.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

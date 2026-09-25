@@ -10,6 +10,7 @@
  * Description: A complete homepage: staggered hero, rising visit panel, rituals on image, gallery, values statement, journal and a call to action. Use it with the Ground artboard template.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

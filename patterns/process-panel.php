@@ -8,6 +8,7 @@
  * Description: A floating Bone panel that rises over the section above, with a two-line title, four numbered steps and a closing line with a button.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

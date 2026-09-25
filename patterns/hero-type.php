@@ -8,6 +8,7 @@
  * Description: A huge left-aligned headline with an eyebrow and a short lede, on Stone.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

@@ -9,6 +9,7 @@
  * Description: A centred heading and lede above the three latest posts in a scattered grid.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

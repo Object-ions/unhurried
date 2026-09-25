@@ -10,6 +10,7 @@
  * Description: Type hero, services index with prices, pricing tiers and questions.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 

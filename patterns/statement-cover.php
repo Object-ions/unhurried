@@ -8,6 +8,7 @@
  * Description: A dark full-bleed image with a right-aligned two-line statement and a frosted note card in the lower left.
  *
  * @package Unhurried
+ * @author  Switch Case Studio
  * @since 1.0.0
  */
 
