@@ -4,3 +4,4 @@ dev
 .distignore
 *.zip
 .DS_Store
+CHANGELOG.md

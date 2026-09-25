@@ -1,0 +1,11 @@
+const {chromium}=require('/Users/imac/.npm/_npx/e41f203b7505f1fb/node_modules/playwright');
+const base='http://127.0.0.1:9400';
+(async()=>{const b=await chromium.launch();const c=await b.newContext();const p=await c.newPage();
+await c.addCookies([{name:'wordpress_test_cookie',value:'WP%20Cookie%20check',url:base}]);
+await c.request.post(base+'/wp-login.php',{form:{log:'admin',pwd:'password','wp-submit':'Log In',testcookie:'1',redirect_to:base+'/wp-admin/'},maxRedirects:0});
+await p.goto(base+'/wp-admin/themes.php?page=themecheck',{timeout:120000});
+await p.selectOption('select[name="themename"]','unhurried').catch(()=>{});
+await Promise.all([p.waitForNavigation({timeout:240000}),p.click('input[type="submit"]')]);
+const txt=await p.evaluate(()=>{const r=document.querySelector('.tc-box')||document.querySelector('#theme-check')||document.body;return r.innerText;});
+console.log(txt.slice(0,9000));
+await b.close();})();

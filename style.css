@@ -58,7 +58,14 @@ img { height: auto; }
 	letter-spacing: -0.03em;
 	gap: .4em;
 }
-.unhurried-header .wp-block-button__link { padding: .6rem 1.3rem; }
+.unhurried-header .wp-block-button__link { padding: .6rem 1.3rem; white-space: nowrap; }
+.unhurried-capsule > .wp-block-group { flex-shrink: 1; min-width: 0; }
+.unhurried-capsule .wp-block-site-title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 480px) {
+	.unhurried-capsule { gap: .5rem !important; }
+	.unhurried-capsule > .wp-block-group { gap: .5rem !important; }
+	.unhurried-header .wp-block-button__link { padding: .55rem .95rem; font-size: .8125rem; }
+}
 
 /* ─── Rise: a section pulled up over the one above it ────────────────────── */
 .unhurried-rise {

@@ -1,3 +1,5 @@
-dev/
+dev/*.png
+dev/*.jpg
+dev/*.log
 *.zip
 .DS_Store

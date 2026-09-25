@@ -30,7 +30,7 @@ if ( ! function_exists( 'unhurried_enqueue_assets' ) ) :
 	function unhurried_enqueue_assets() {
 		$version = wp_get_theme()->get( 'Version' );
 
-		wp_enqueue_style( 'unhurried-style', get_stylesheet_uri(), array(), $version );
+		wp_enqueue_style( 'unhurried-style', get_template_directory_uri() . '/style.css', array(), $version );
 
 		wp_enqueue_script(
 			'unhurried-reveal',
