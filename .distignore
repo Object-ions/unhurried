@@ -5,3 +5,4 @@ dev
 *.zip
 .DS_Store
 CHANGELOG.md
+README.md
